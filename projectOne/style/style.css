@@ -6,3 +6,8 @@ a {
     font-size: 3rem;
     color: red;
 }
+
+.height {
+   /*  height: 500px; */
+   min-height: 100vh;   /* always the screen size of your actual screen, viewport */
+}
