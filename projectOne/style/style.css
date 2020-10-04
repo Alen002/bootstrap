@@ -8,3 +8,9 @@ body {
     
     min-height: 100vh;   
 }
+
+.title-underline {
+    width: 150px;
+    height: 2px;
+    margin: 0 auto;  /* the first value is top/bottom and second value for left/right */
+}
