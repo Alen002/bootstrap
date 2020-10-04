@@ -2,12 +2,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-a {
-    font-size: 3rem;
-    color: red;
-}
+/* always the screen size of your actual screen, viewport */
 
 .height {
-   /*  height: 500px; */
-   min-height: 100vh;   /* always the screen size of your actual screen, viewport */
+    
+    min-height: 100vh;   
 }
