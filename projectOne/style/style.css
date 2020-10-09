@@ -1,16 +1,20 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* always the screen size of your actual screen, viewport */
 
 .height {
     
-    min-height: 100vh;   
+  min-height: 100vh;   
 }
 
 .title-underline {
-    width: 150px;
-    height: 2px;
-    margin: 0 auto;  /* the first value is top/bottom and second value for left/right */
+  width: 150px;
+  height: 2px;
+  margin: 0 auto;  /* the first value is top/bottom and second value for left/right */
+}
+
+.height-80 {
+	min-height: 80vh;
 }
