@@ -16,8 +16,7 @@ body {
 }
 
 .height-80 {
-  min-height: 80vh;
-  
+  min-height: 80vh;  
 }
 
 .about-picture {
@@ -28,10 +27,18 @@ body {
   /* background-attachment: fixed; */
 }
 
+/* img:hover {
+  transition: transform 0.5s ease;
+  transform:scale(1.02);
+}
+ */
+/****** Media Queries *******/
+
 @media (min-width: 576px) {
   img {
-    width: 300px;
-    max-height: 200px;
+    width: 400px;
+    max-height: 300px;
     object-fit: cover;
   }
 }
+
