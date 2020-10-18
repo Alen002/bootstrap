@@ -32,6 +32,13 @@ body {
   transform:scale(1.02);
 }
  */
+
+.img-wrapper {
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+}
+ 
 /****** Media Queries *******/
 
 @media (min-width: 576px) {
@@ -41,4 +48,5 @@ body {
     object-fit: cover;
   }
 }
+
 
